@@ -1,0 +1,17 @@
+1.Submit without Data 
+2.Submit with 0 budget
+3.Remove default data 
+4.Add Expense without adding previous Expense
+5.Add 0 Expense
+
+
+
+Important features:
+1) In the Username field, display the list of usernames in an autocomplete dropdown based on the added prompt. Note: The list should only appear after adding more than 2 characters.
+    i) If selected any existing username from the appeared list, then autofill all the fields data or else create a new user
+2) "Expense items" section should be only displayed when above fields are not empty and provide an Add more option
+3) Based on the added budget for example Rs. 1000,
+    i) While adding the amount for particular Expense item, keep checking if the added amount exceeds the above budget.
+    ii) If it exceeds, then display validation and block the form submissions.
+4) Save data into localstorage
+5) Username must be unique in localstorage
